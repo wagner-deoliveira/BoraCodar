@@ -6,4 +6,4 @@
 - [ ] Model 2
 
 <br/>
-<img src="model-1" alt="model 1"/>
+<img src="model-1.jpg" alt="model 1"/>
