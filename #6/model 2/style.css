@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(167.96deg, #8257E5 0%, #271A45 100%) no-repeat;
+    border-radius: 32px;
+    font-family: Rubik;
+}
+
+.title {
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 20px;;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 122px;
+    width: 327px;
+    height: 656px;
+    left: 50%;
+    top: 50%;
+    filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.25));
+}
+
+.card-common {
+    background: #FFFFFF;
+}
+
+.upper {
+    width: 327px;
+    height: 191px;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+.middle {
+    width: 327px;
+    height: 84px;
+    border-top: #cdccce 1px dashed;
+    border-bottom: #cdccce 1px dashed;
+}
+
+.lower {
+    width: 327px;
+    height: 269px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.middle-content {
+    padding: 24px 32px;
+    display: flex;
+
+}
+
+.main-info {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.font-normal {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    opacity: 0.64;
+}
+
+.footer {
+    color: #FFFFFF;
+    padding: 20px 28px;
+    text-align: center;
+
+}
+
+.font-medium {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    opacity: 0.88;
+}
+
+.misc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.upper-content {
+    display: grid;
+    grid-auto-flow: row;
+    align-items: center;
+    gap: 24px;
+    padding: 24px 32px;
+}
+
+.main-info-upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flight-number-date {
+    gap: 24px;
+}
+
+.flight-from-to-grid {
+    display: flex;
+}
+
+.flight-info-from {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.flight-info-to {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.plane-icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: auto;
+}
+
+.airport-code {
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.upper-index {
+    font-size: 10px;
+    line-height: 12px;
+    vertical-align: super;
+}
+
+.lower-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 32px;
+}
+
+.departure-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.lower-container-left {
+    margin-bottom: 16px;
+}
+
+.rounded-time {
+    background: #633BBC;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 4px 8px;
+    width: 44px;
+    height: 20px;
+    align-items: center;
+}
+
+.hour-content {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.qr-footer {
+    align-items: center;
+    text-align: center;
+}
+
+.departure-attention {
+    padding: 24px 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
