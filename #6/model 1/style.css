@@ -107,6 +107,7 @@ body {
     align-items: center;
     gap: 24px;
     padding: 24px 32px;
+    width: 100%;
 }
 
 .main-info-upper {
