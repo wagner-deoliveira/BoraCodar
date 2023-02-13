@@ -8,7 +8,7 @@ body {
     height: 100vh;
     background: linear-gradient(167.96deg, #8257E5 0%, #271A45 100%) no-repeat;
     border-radius: 32px;
-    font-family: Rubik;
+    font-family: Rubik, sans-serif;
 }
 
 .title {
@@ -51,6 +51,7 @@ body {
 }
 
 .middle {
+    position: relative;
     width: 327px;
     height: 84px;
     border-top: #cdccce 1px dashed;
@@ -203,13 +204,51 @@ body {
     width: 100%;
 }
 
-.player {
+svg circle {
+    /*fill: #FFFFFF;*/
+    /*mask: url(#mask);*/
+    /*-webkit-mask-mode: alpha;*/
+    /*!*mask-image: url(./circle.svg);*!*/
+    /*mask-mode: alpha;*/
+    /*mask-size: 100% 100%;*/
+    /*mask-clip: border-box;*/
+}
+
+.dot1 {
     position: absolute;
-    width: 200px;
-    height: 40px;
-    border-radius: 40px;
-    background-image: radial-gradient(circle at 18px 20px, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 20px, blue 2px);
-    color: #FFF;
-    top: 54%;
-    left: 17%;
-  }
+    height: 24px;
+    width: 24px;
+    bottom: -12px;
+    left: -12px;
+    object-fit: cover;
+    mask-image: url(./circle.svg);
+    --webkit-mask-image: url(./circle.svg);
+    /*mask-image: url(data:@file/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCiAgPGRlZnM+DQogICAgPG1hc2sgaWQ9Im1hc2siIGhlaWdodD0iMTAwJSIgd2lkdGg9IjEwMCUiPg0KICAgICAgPGNpcmNsZSBmaWxsPSIjRDlEOUQ5IiBjeD0iNTAiIGN5PSI1MCIgcj0iNTAiIC8+DQogICAgPC9tYXNrPg0KICA8L2RlZnM+DQogIDxjaXJjbGUgZmlsbD0iI0Q5RDlEOSIgY3g9IjUwIiBjeT0iNTAiIHI9IjUwIiAvPg0KPC9zdmc+);*/
+    /*mask-mode: alpha;*/
+    /*mask-size: 100% 100%;*/
+    /*mask-clip: border-box;*/
+}
+
+.dot2 {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    top: -12px;
+    left: -12px;
+}
+
+.dot3 {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    bottom: -12px;
+    right: -12px;
+}
+
+.dot4 {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    top: -12px;
+    right: -12px;
+}
